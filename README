@@ -1,0 +1,7 @@
+Usage:
+    1. Add all the ip address of devices to config file. Please be sure about device that it has enable adb tcp port already or this programe will definitely broken down.
+        For example:
+            192.168.121.156
+            192.168.121.221
+    2. Run extract_launched_app.py using python.
+    3. When you feels the test finished, press CTRL-C to stop observing. Then you will find there are serveral new files in current directory. They are named after the ip address. They are the info you want.
